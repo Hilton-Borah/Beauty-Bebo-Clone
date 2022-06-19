@@ -21,6 +21,7 @@ function loginFun(event) {
   }
 }
 
+
 function checkLogin(l_email, l_password) {
   let filter = userDataFromLS.filter(function (elem) {
     return elem.email === l_email && elem.password === l_password;
