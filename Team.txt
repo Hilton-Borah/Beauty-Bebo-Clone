@@ -3,8 +3,8 @@
 *** YOUR TEAM MEMBER*****
 
 
-Hilton	
-Omkar Lakhmani	
-Suraj Kumar
-Hari Singh Bisht
-Roshan Kumar
+Hilton created "mycart"	
+Omkar Lakhmani created "Login Page"
+Suraj Kumar created "Navbar and Products"
+Hari Singh Bisht created "Sign Up"
+Roshan Kumar created "Product Page"
