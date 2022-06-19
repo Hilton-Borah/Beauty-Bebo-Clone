@@ -556,13 +556,13 @@ let demoarray=[
     name:"Miss Clair Eyelash-Clear Tone", price:2500
 },
 {image:"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/r/e/repair_shampoo_650-2_1_1.jpg", 
-name:"Miss Clair Eyelash-Clear Tone", price:1800
+name:"Dove Anti hairfall Shampoo 500gm", price:1800
 },
 {image:"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/p/o/ponds_super_light_gel_oil_free_moisturiser_with_hyaluronic_acid_vitamin_e2.jpg", 
-name:"Miss Clair Eyelash-Clear Tone", price:1500
+name:"Pond's Natural Smoothning Cream", price:1500
 },
 {image:"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/i/m/image1_600x.jpg", 
-name:"Miss Clair Eyelash-Clear Tone", price:2980
+name:"Lotus Premium White Cream", price:2980
 }
 ]
 

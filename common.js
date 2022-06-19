@@ -20,3 +20,5 @@ cart_itemAll.forEach(function(el){
     document.querySelectorAll("#mycart>a").innerText="You have nothing in your cart"
 }
 })
+
+// document.querySelector("#continueshop").addEventListener
