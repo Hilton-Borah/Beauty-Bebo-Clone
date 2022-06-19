@@ -786,6 +786,7 @@ section>#navbar2>ul>li>div>div:nth-child(4)>img {
     margin-bottom: 30px;
     margin-top: 10px;
     width: 790px;
+    border: 0.5px solid lightgray;
 } 
 
 #container123 {
@@ -977,7 +978,7 @@ h5:hover {
     outline: none;
   }
   
-  #btn3{
+  #btn2{
     color:white;
     background-color: #dd0285;
     cursor: pointer;
@@ -987,7 +988,7 @@ h5:hover {
     width: 80px;
   }
 
-  h5{
+  #lasth5{
     display: block;
     background-color: black;
     color: whitesmoke;
@@ -997,6 +998,14 @@ h5:hover {
     font-size: larger;
     font-weight: lighter;
   }
+
+  .subhead{
+    color: white;
+  }
+
+  /* #lasth3{
+    color: white;
+  } */
 
     /* MEDIA QUERIES FOR MEDIUM SCREEN SIZE */
 
@@ -1042,5 +1051,6 @@ h5:hover {
       width: 30%;
       margin-top: 10px;
       margin-left: 5px;
+
     }
     }

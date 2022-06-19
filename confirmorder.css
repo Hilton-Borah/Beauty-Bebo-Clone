@@ -887,6 +887,7 @@ p+div:hover {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-weight: 600;
     font-style: italic;
+    color: white;
   }
   
 
@@ -930,6 +931,10 @@ p+div:hover {
     font-size: larger;
     font-weight: lighter;
   }
+
+  /* #lasth3{
+    color: white;
+  } */
 
 
     /* MEDIA QUERIES FOR MEDIUM SCREEN SIZE */

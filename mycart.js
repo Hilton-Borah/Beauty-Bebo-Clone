@@ -111,6 +111,7 @@ function displayall(productarray) {
     function deleteitemcart(index) {
         productarray.splice(index, 1)
         displayall(productarray)
+        localStorage.setItem("surajKumarData",JSON.stringify(productarray))
     }
 
     document.querySelector("#APPLYDISCOUNT").addEventListener("click", APPLYDISCOUNT)
