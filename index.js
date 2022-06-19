@@ -644,12 +644,14 @@ function add_to_cart(el){
   
      proLS.push(el)
     localStorage.setItem("surajKumarData", JSON.stringify(proLS))
-    window.location.reload()
+    // window.location.reload()
+    alert("Item added to Cart")
 }
 let  cart_products = document.querySelectorAll("#mycart>a")
 cart_products.forEach(function(el){
     if(proLS.length>0){
     el.innerText=`You have ${proLS.length} item in your cart`
+    
 }else{
     document.querySelectorAll("#mycart>a").innerText="You have nothing in your cart"
 }
