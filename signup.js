@@ -4,12 +4,14 @@
 
 
 
+
+
+
 let form=document.querySelector("form")
 userdata=JSON.parse(localStorage.getItem("userdata"))||[]
 
-let pass = form.userpass.value
-let confirmPass = form.userconfirmpass.value 
-console.log(pass, confirmPass)
+
+
 form.addEventListener("submit",function(event){
     event.preventDefault()
 
@@ -22,11 +24,12 @@ form.addEventListener("submit",function(event){
         confirmpassword:form.userconfirmpass.value
         
     }
-    console.log(obj.password,obj.confirmpassword)
+    
   
     if(cheackemail(obj.email)==true){
         userdata.push(obj)
         localStorage.setItem("userdata",JSON.stringify(userdata))
+        alert("signup sucessful")
     }else{
         alert("Account already exist")
     }
@@ -34,23 +37,23 @@ form.addEventListener("submit",function(event){
 
     
       
-        if (pass==confirmPass) {
-            userdata.push(obj)
-            localStorage.setItem("userdata",JSON.stringify(userdata))   
-        }else{
-            alert('invalid pass')
-        }
-    })
+        if (obj.password==obj.confirmpassword) {
            
         
+            userdata.push(obj)
            
             
             
+        }else{
+            localStorage.setItem("userdata",JSON.stringify(userdata))   
+            alert("invalid pass")
+        }
         
     
     
 
     
+})
 
   
 function cheackemail(email){
