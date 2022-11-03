@@ -1,5 +1,5 @@
 # Beauty-Bebo-Clone
-This is a clone of Beauty Bebo website which is India’s fastest growing online retail store for the day to day and special occasion need of the Makeup, Skin care, Hair care, Personal care, Mom and Baby care, Fragrance and Ayurveda products.  Kindly Check the deploy link ---> 
+This is a clone of Beauty Bebo website which is India’s fastest growing online retail store for the day to day and special occasion need of the Makeup, Skin care, Hair care, Personal care, Mom and Baby care, Fragrance and Ayurveda products.  Kindly Check the deploy link ---> https://hilton-borah.github.io/Beauty-Bebo-Clone/payment.html
 
 
 The Landing page
